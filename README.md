@@ -16,7 +16,7 @@ A Django-based web application for managing online courses with user authenticat
 - **Backend**: Python, Django
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
 - **Database**: SQLite3 (default), PostgreSQL, or MySQL
-- **Deployment**: IBM Cloud Foundry (default), or any cloud platform
+- **Deployment**: Render
 
 ## Project Structure
 
@@ -113,16 +113,7 @@ The application will be available at `http://localhost:8000`.
 
 ## Deployment
 
-### IBM Cloud Foundry (Default)
-```bash
-ibmcloud cf push
-```
-
-### Alternative Platforms
-The app can be deployed to Heroku, Render, or any platform supporting Django:
-- Ensure `Procfile` contains: `web: gunicorn myproject.wsgi`
-- Set environment variables for production (SECRET_KEY, DEBUG, DATABASE_URL)
-- Configure static file serving with WhiteNoise
+### Render
 
 ## Course Context
 
