@@ -111,14 +111,6 @@ The application will be available at `http://localhost:8000`.
 4. Mark correct answers for each question
 5. View student enrollments and submissions
 
-## Deployment
-
-### Render
-
-## Course Context
-
-This project was developed as the final project for the **IBM Full Stack Software Developer Professional Certificate** on Coursera, specifically for the course on Django Application Development with SQL and Databases.
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
